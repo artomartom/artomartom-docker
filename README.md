@@ -17,5 +17,5 @@
 docker build -t twc-dockerfile-flask-app:latest .
 
 # запуск контейнера на порту 3478
-docker run -d -p 3478:3478 twc-dockerfile-flask-app
+docker run -d -p 3478:3478 twc-dockerfile-flask-app 
 ```
